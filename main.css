@@ -1,13 +1,24 @@
 body{
-background-color:blue
+  font-family:"arial";
 }
-.box{
-  width:200px;
-  height:100px;
-}
-
 img{
+  width:300px;
+  height:auto;
+}
+ul{
+  list-style-type:none;
+}
+.ScreenInvert .box{
+  background-color:red;
+  float:left;
+  padding:20px;
+}
+.ScreenInvert img{
   -webkit-filter:invert()
   contrast(1.1);
   mix-blend-mode:screen;
+}
+.code{
+  position: relative;
+  right: -80px;
 }
