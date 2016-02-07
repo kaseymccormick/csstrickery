@@ -1,0 +1,13 @@
+body{
+background-color:blue
+}
+.box{
+  width:200px;
+  height:100px;
+}
+
+img{
+  -webkit-filter:invert()
+  contrast(1.1);
+  mix-blend-mode:screen;
+}
